@@ -1,0 +1,49 @@
+Version Control with Git
+-------------------------
+Version Control is a system that helps developers track changes to files over time,
+enabling collaboration, history tracking, and rollback to previous states if needed.
+Git is one of the most widely used version control systems.
+Types of Version Control Systems (VCS)
+----------------------------------------
+Local Version Control Systems:
+--------------------------------
+1.Stores versions of files locally on your computer.
+2.Limited to individual use and not ideal for collaboration.
+Example: Simple file backups.
+Centralized Version Control Systems (CVCS):
+------------------------------------------
+1.Maintains a single repository on a central server.
+2.Developers check out files, make changes, and commit them back to the central server.
+3.Requires constant network connectivity to access the repository.
+Example: SVN (Subversion).
+
+Distributed Version Control Systems (DVCS):
+--------------------------------------------
+1.Each developer has a full copy of the repository, including history.
+2.Allows offline work and better performance for large projects.
+3.Collaboration happens by pushing/pulling changes to/from remote repositories.
+Example: Git.
+Difference Between Git and GitHub
+
+Version Control with Git
+Version Control is a system that helps developers track changes to files over time, enabling collaboration, history tracking, and rollback to previous states if needed. Git is one of the most widely used version control systems.
+
+Types of Version Control Systems (VCS)
+Local Version Control Systems:
+
+Stores versions of files locally on your computer.
+Limited to individual use and not ideal for collaboration.
+Example: Simple file backups.
+Centralized Version Control Systems (CVCS):
+
+Maintains a single repository on a central server.
+Developers check out files, make changes, and commit them back to the central server.
+Requires constant network connectivity to access the repository.
+Example: SVN (Subversion).
+Distributed Version Control Systems (DVCS):
+
+Each developer has a full copy of the repository, including history.
+Allows offline work and better performance for large projects.
+Collaboration happens by pushing/pulling changes to/from remote repositories.
+Example: Git.
+
