@@ -1,0 +1,30 @@
+# This is the configure git
+# We have created the repo in GITHUB
+# Need to go into local laptop and create a directory 
+# Fom the new directory open CMD 
+# We need to configure the emailshown in the below example 
+
+ - git config --global user.email "you@example.com"
+ - git config --global user.email "lathak2308@gmail.com"
+ 
+# now we have to configurethe github username as shown in below
+ - git config --global user.name "Your Name"
+ - git config --global user.name "lathadevops09"
+ 
+create a new repository on the command line
+-------------------------------------------
+# echo "# Handson" >> README.md
+
+git init  # intializing the empty git repository
+git add . # Adding the files into the local repository
+git commit -m "first commit" # This is the commit message always need to give -m and <write the commit message>
+git branch -M main # It is used to rename the current branch to main
+git remote add origin https://github.com/lathadevops09/Handson.git 
+git push -u origin main
+
+
+push an existing repository from the command line:
+---------------------------------------------------
+git remote add origin https://github.com/lathadevops09/Handson.git
+git branch -M main
+git push -u origin main
