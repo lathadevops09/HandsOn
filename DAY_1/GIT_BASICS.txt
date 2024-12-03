@@ -28,3 +28,10 @@ push an existing repository from the command line:
 git remote add origin https://github.com/lathadevops09/Handson.git
 git branch -M main
 git push -u origin main
+
+how to add a new files to repository
+-------------------------------------
+git status # will show the current condition of the working directory
+git add . # Adding the files into the local repository
+git commit -m "first commit" # This is the commit message always need to give -m and <write the commit message>
+git push -u origin main
