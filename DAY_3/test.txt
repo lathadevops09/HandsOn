@@ -1,0 +1,1 @@
+in github feature branch is deleted but still in git local we have featurebranch we are merging everything in feature branch 
